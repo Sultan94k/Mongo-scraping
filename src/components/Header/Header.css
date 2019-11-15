@@ -1,9 +1,4 @@
-.header {
-  width: 100%;
-  font-size: 2rem;
-  color: #2A77AE;
-  margin-bottom: 10px;
-}
+
 
 .title {
   text-align: center;
@@ -11,6 +6,12 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 40pt;
 }
+            .header {
+              margin-bottom: 10.01px;
+              width: 100%;
+              font-size: 2rem;
+              color: lightskyblue;
+            }
 
 .scores {
   text-align: center;

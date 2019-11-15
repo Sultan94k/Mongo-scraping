@@ -1,21 +1,21 @@
-.card {
-  border-radius: 12px;
-  height: 200px;
-  margin: 1rem;
-  position: relative;
-  width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  text-align: left;
-}
 
 .card > .img-container {
-  border-radius: 12px;
   height: 100%;
   overflow: hidden;
   text-align: center;
+  border-radius: 12px;
   background:whitesmoke;
   
 }
+    .card {
+      height: 200px;
+      position: relative;
+      width: 325px;
+      box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+      margin: 1rem;
+      border-radius: 12px;
+      text-align: left;
+    }
 .card > .img-container > img {
   width: 60%
 }

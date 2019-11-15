@@ -1,12 +1,13 @@
+//? import rect, card,header, arrjson
 import React, { Component } from "react";
-import Card from "./components/Card";
+import cards from "./cards.json";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
-import cards from "./cards.json";
+import Card from "./components/Card";
 
 
 class App extends Component {
-  // Setting this.state.cards to the cards json array
+  //? Set the this.state.cards to cards json arr.
   state = {
     cards,
     score: 0,
@@ -26,7 +27,7 @@ class App extends Component {
     this.setState({score: 0});
     return true;
   }
-
+//onclick listen event
   clickCount = id => {
     this.state.cards.find((o, i) => {
       if (o.id === id) {
@@ -43,7 +44,7 @@ class App extends Component {
       }
     });
   }
-  // Map over this.state.cards and render a cardCard component for each card object
+  //? mapping over this.state.cards and rendering the card
   render() {
     return (
       <Wrapper>
