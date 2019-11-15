@@ -1,12 +1,14 @@
 .wrapper {
-  background: lightblue;
+  border: solid 0.01px black;
   display: flex;
-  flex-flow: row wrap;
   padding-top: 50px;
   height: 100%;
   border-radius: 15px;
   justify-content: space-around;
   align-content: flex-start;
-  padding: 20px;
+  flex-flow: row wrap;
+  background: lightblue;
   overflow: auto;
+  padding: 20px;
+  
 }
