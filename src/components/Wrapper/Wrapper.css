@@ -1,0 +1,12 @@
+.wrapper {
+  background: lightblue;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 50px;
+  height: 100%;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-content: flex-start;
+  padding: 20px;
+  overflow: auto;
+}
